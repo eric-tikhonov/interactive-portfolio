@@ -14,6 +14,22 @@ function Header() {
     setIsOpen(false);
   };
 
+  const handleScroll = (e, target) => {
+    e.preventDefault();
+    const element = document.querySelector(target);
+    const offset = 50;
+    const bodyRect = document.body.getBoundingClientRect().top;
+    const elementRect = element.getBoundingClientRect().top;
+    const elementPosition = elementRect - bodyRect;
+    const offsetPosition = elementPosition - offset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth"
+    });
+    handleCloseMenu();
+  };
+
   return (
     <header className="header">
       <nav className="navigation">
@@ -33,16 +49,16 @@ function Header() {
         </div>
         <div className={`links ${isOpen ? "active" : ""}`}>
           <ol>
-            <li onClick={handleCloseMenu}>
+            <li onClick={(e) => handleScroll(e, "#about-me")}>
               <a href="#about-me">About</a>
             </li>
-            <li onClick={handleCloseMenu}>
+            <li onClick={(e) => handleScroll(e, "#jobs")}>
               <a href="#jobs">Experience</a>
             </li>
-            <li onClick={handleCloseMenu}>
+            <li onClick={(e) => handleScroll(e, "#projects")}>
               <a href="#projects">Work</a>
             </li>
-            <li onClick={handleCloseMenu}>
+            <li onClick={(e) => handleScroll(e, "#contact-me")}>
               <a href="#contact-me">Contact</a>
             </li>
           </ol>
