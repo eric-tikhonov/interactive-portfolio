@@ -55,8 +55,8 @@ function Header() {
             <li onClick={(e) => handleScroll(e, "#experience")}>
               <a href="#experience">Experience</a>
             </li>
-            <li onClick={(e) => handleScroll(e, "#work")}>
-              <a href="#work">Work</a>
+            <li onClick={(e) => handleScroll(e, "#projects")}>
+              <a href="#projects">Projects</a>
             </li>
             <li onClick={(e) => handleScroll(e, "#contact-me")}>
               <a href="#contact-me">Contact</a>

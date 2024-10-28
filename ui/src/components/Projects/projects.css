@@ -1,0 +1,77 @@
+.projects-section {
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section-heading {
+    font-size: var(--fz-heading);
+    margin-bottom: 20px;
+    color: var(--dark-slate);
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .section-heading::after {
+    content: '';
+    display: block;
+    width: 310px;
+    height: 2px;
+    background: var(--dark-slate);
+    margin-top: 5px;
+  }
+  
+  .project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .project-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: var(--border-radius);
+  }
+  
+  .project-description {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .project-description h3 {
+    font-size: var(--fz-md);
+    color: var(--tan);
+  }
+  
+  .project-description h4 {
+    font-size: var(--fz-lg);
+    margin-bottom: 10px;
+    color: var(--dark-slate);
+  }
+  
+  .project-description p {
+    font-size: var(--fz-md);
+    color: var(--dark-slate);
+    line-height: 1.6;
+  }
+  
+  .project-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .tech-pill {
+    background: #ececec;
+    color: var(--dark-slate);
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+    font-size: var(--fz-sm);
+  }
+  
