@@ -78,4 +78,34 @@
     color: var(--dark-slate);
     line-height: 1.6;
   }
+
+  @media (max-width: 768px) {
+    .experience-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .experience-tabs {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .tab-button {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .experience-details ul {
+      padding-left: 20px;
+      margin-right: 0;
+    }
+    
+    .experience-details li {
+      font-size: var(--fz-md);
+      color: var(--dark-slate);
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+  }
+  
   

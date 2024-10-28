@@ -7,7 +7,7 @@ function Experience() {
 
   const experiences = {
     TylerTech: {
-      company: "Tyler Technologies",
+      company: "Tyler Tech",
       role: "Software Developer",
       description: [
         "Designed, developed, and maintained <span class='highlight'>Sitecore sites and applications</span> to enhance business capabilities and eliminate redundancies for the <span class='highlight'>Department of Labor (DOL)</span> of CT.",
