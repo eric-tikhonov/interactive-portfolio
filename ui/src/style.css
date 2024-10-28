@@ -1,6 +1,6 @@
 *,::before,::after {
   box-sizing: inherit;
-  user-select: none; /* Prevent text cursor */
+  user-select: none;
 }
 
 body {

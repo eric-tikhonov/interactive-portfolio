@@ -48,7 +48,7 @@
   display: none;
   flex-direction: column;
   cursor: pointer;
-  user-select: none; /* Prevent text cursor */
+  user-select: none;
 }
 
 .menu-toggle .bar {
@@ -61,7 +61,7 @@
 .close-icon {
   color: #fff;
   font-size: 24px;
-  pointer-events: none; /* Prevent text cursor */
+  pointer-events: none;
 }
 
 .links {
@@ -89,7 +89,7 @@
   color: var(--light-slate);
   text-decoration: none;
   transition: color 0.3s ease;
-  user-select: none; /* Prevent text cursor */
+  user-select: none;
 }
 
 .links ol li a:hover {
@@ -107,7 +107,7 @@
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease;
   font-size: var(--fz-sm);
-  user-select: none; /* Prevent text cursor */
+  user-select: none;
 }
 
 .resume-button a:hover {
@@ -115,7 +115,6 @@
   color: var(--navy);
 }
 
-/* Mobile-specific styles */
 @media (max-width: 768px) {
   .header {
     padding: 0 20px;
@@ -131,7 +130,7 @@
     width: 100%;
     height: calc(100vh - var(--nav-height));
     overflow-y: auto;
-    background-color: rgba(10, 25, 47, 0.85); /* Restored original background color */
+    background-color: rgba(10, 25, 47, 0.85);
     position: absolute;
     top: var(--nav-height);
     left: 0;
@@ -162,20 +161,19 @@
     text-decoration: none;
     font-size: var(--fz-lg);
     transition: color 0.3s ease, background-color 0.3s ease;
-    user-select: none; /* Prevent text cursor */
+    user-select: none;
   }
 
   .links ol li a:hover {
     background-color: rgba(255, 255, 255, 0.1);
-    color: var(--tan); /* Tan on hover */
+    color: var(--tan);
   }
 
   .resume-button {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 0; /* Remove left margin */
+    margin-left: 0;
   }
 
   .resume-button a {
@@ -187,12 +185,12 @@
     font-size: var(--fz-lg);
     text-decoration: none;
     transition: color 0.3s ease, background-color 0.3s ease;
-    user-select: none; /* Prevent text cursor */
+    user-select: none;
   }
 
   .resume-button a:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Ensure the hover background spans the full width */
-    color: var(--tan); /* Tan on hover */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--tan);
   }
 }
 
