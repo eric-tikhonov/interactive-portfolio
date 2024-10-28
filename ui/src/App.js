@@ -6,6 +6,7 @@ import Intro from "./components/Intro/Intro.js";
 import AboutMe from "./components/About Me/AboutMe.js";
 import ContactMe from "./components/Contact Me/Contact Me.js";
 import Socials from "./components/Socials/Socials.js";
+import Experience from "./components/Experience/Experience.js";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main className="main">
         <Intro />
         <AboutMe />
+        <Experience />
         <ContactMe />
         <Socials />
       </main>

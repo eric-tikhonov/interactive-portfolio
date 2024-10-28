@@ -49,14 +49,14 @@ function Header() {
         </div>
         <div className={`links ${isOpen ? "active" : ""}`}>
           <ol>
-            <li onClick={(e) => handleScroll(e, "#about-me")}>
-              <a href="#about-me">About</a>
+            <li onClick={(e) => handleScroll(e, "#about")}>
+              <a href="#about">About</a>
             </li>
-            <li onClick={(e) => handleScroll(e, "#jobs")}>
-              <a href="#jobs">Experience</a>
+            <li onClick={(e) => handleScroll(e, "#experience")}>
+              <a href="#experience">Experience</a>
             </li>
-            <li onClick={(e) => handleScroll(e, "#projects")}>
-              <a href="#projects">Work</a>
+            <li onClick={(e) => handleScroll(e, "#work")}>
+              <a href="#work">Work</a>
             </li>
             <li onClick={(e) => handleScroll(e, "#contact-me")}>
               <a href="#contact-me">Contact</a>
