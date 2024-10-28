@@ -118,42 +118,37 @@
 @media (max-width: 768px) {
   .header {
     padding: 0 20px;
+    height: 75px
   }
-
   .menu-toggle {
     display: flex;
   }
-
   .links {
     display: none;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - var(--nav-height));
+    height: calc(100vh - 75px);
     overflow-y: auto;
     background-color: rgba(10, 25, 47, 0.85);
     position: absolute;
-    top: var(--nav-height);
+    top: 75px;
     left: 0;
     z-index: 10;
   }
-
   .links.active {
     display: flex;
   }
-
   .links ol {
     flex-direction: column;
     width: 100%;
     margin: 0;
     padding: 0;
   }
-
   .links ol li {
     width: 100%;
     text-align: center;
     margin: 10px 0;
   }
-
   .links ol li a {
     display: block;
     padding: 15px;
@@ -163,19 +158,17 @@
     transition: color 0.3s ease, background-color 0.3s ease;
     user-select: none;
   }
-
   .links ol li a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--tan);
   }
-
   .resume-button {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-left: 0;
   }
-
   .resume-button a {
     display: block;
     width: 100%;
@@ -187,12 +180,12 @@
     transition: color 0.3s ease, background-color 0.3s ease;
     user-select: none;
   }
-
   .resume-button a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--tan);
   }
 }
+
 
 .menu-toggle.open .bar:nth-child(2) {
   opacity: 0;

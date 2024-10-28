@@ -13,13 +13,13 @@ function AboutMe() {
           <div className="about-me-text">
             <div>
               <p>
-                Hello! My name is <span class="highlight">Eric</span>, and I
+                Hello! My name is <span className="highlight">Eric</span>, and I
                 enjoy creating software that transforms ideas into reality. I
                 began my journey in{" "}
-                <span class="highlight">software development</span> at the age
-                of <span class="highlight">13</span>, creating mods for
+                <span className="highlight">software development</span> at the age
+                of <span className="highlight">13</span>, creating mods for
                 Minecraft. This early experience honed my skills in{" "}
-                <span class="highlight">
+                <span className="highlight">
                   coding, problem-solving, and creativity
                 </span>
                 .
@@ -27,18 +27,18 @@ function AboutMe() {
               <div>
                 <p>
                   Fast-forward to today, I’ve had the privilege of working in
-                  the <span class="highlight">gov tech sector</span>. My main
+                  the <span className="highlight">gov tech sector</span>. My main
                   focus these days is building accessible, inclusive products
                   and digital experiences at{" "}
-                  <span class="highlight">Tyler Technologies</span> for a
+                  <span className="highlight">Tyler Technologies</span> for a
                   variety of clients, including the{" "}
-                  <span class="highlight">state of Connecticut</span>.
+                  <span className="highlight">state of Connecticut</span>.
                 </p>
               </div>
               <div>
                 <p>
                   I'm currently pursuing a{" "}
-                  <span class="highlight">
+                  <span className="highlight">
                     Master of Science in Cybersecurity and Information Assurance
                   </span>{" "}
                   to deepen my expertise in securing digital infrastructures.

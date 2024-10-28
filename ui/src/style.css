@@ -1,11 +1,15 @@
 *,::before,::after {
   box-sizing: inherit;
-  user-select: none;
+  user-select: none; 
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 body {
-  height: 100%;
-  margin: 0;
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;
@@ -49,6 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex: 1;
 }
 
 html {

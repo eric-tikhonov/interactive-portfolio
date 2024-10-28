@@ -15,6 +15,9 @@
     pointer-events: auto !important;
     user-select: auto !important;
     color: var(--lightest-slate);
+    position: relative;
+    bottom: 0;
+    width: 100%;
   }
   
   .footer-credit {
