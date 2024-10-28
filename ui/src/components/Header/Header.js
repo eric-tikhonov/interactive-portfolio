@@ -17,24 +17,28 @@ function Header() {
   const handleScroll = (e, target) => {
     e.preventDefault();
     const element = document.querySelector(target);
-    const offset = 50;
-    const bodyRect = document.body.getBoundingClientRect().top;
-    const elementRect = element.getBoundingClientRect().top;
-    const elementPosition = elementRect - bodyRect;
-    const offsetPosition = elementPosition - offset;
+    if (element) {
+      const offset = 50;
+      const bodyRect = document.body.getBoundingClientRect().top;
+      const elementRect = element.getBoundingClientRect().top;
+      const elementPosition = elementRect - bodyRect;
+      const offsetPosition = elementPosition - offset;
 
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: "smooth"
-    });
-    handleCloseMenu();
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+      handleCloseMenu();
+    } else {
+      console.error(`Element with target ${target} not found.`);
+    }
   };
 
   return (
     <header className="header">
       <nav className="navigation">
         <div className="logo" role="img" aria-label="Home">
-          <a href="#home"><i className="fas fa-code"></i></a>
+          <a href="/"><i className="fas fa-code"></i></a>
         </div>
         <div className={`menu-toggle ${isOpen ? "open" : ""}`} onClick={handleToggle}>
           {isOpen ? (
@@ -49,11 +53,11 @@ function Header() {
         </div>
         <div className={`links ${isOpen ? "active" : ""}`}>
           <ol>
-            <li onClick={(e) => handleScroll(e, "#about")}>
-              <a href="#about">About</a>
+            <li onClick={(e) => handleScroll(e, "#about-me")}>
+              <a href="#about-me">About</a>
             </li>
-            <li onClick={(e) => handleScroll(e, "#experience")}>
-              <a href="#experience">Experience</a>
+            <li onClick={(e) => handleScroll(e, "#jobs")}>
+              <a href="#jobs">Experience</a>
             </li>
             <li onClick={(e) => handleScroll(e, "#projects")}>
               <a href="#projects">Projects</a>
