@@ -4,7 +4,7 @@ import "./intro.css";
 
 function Intro() {
   return (
-    <section className="intro-section">
+    <section id="home" className="intro-section">
         <h1>Hi, my name is</h1>
         <h2>Eric Tikhonov.</h2>
         <h3>I build .NET software.</h3>

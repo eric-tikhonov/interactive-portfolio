@@ -34,7 +34,7 @@ function Header() {
     <header className="header">
       <nav className="navigation">
         <div className="logo" role="img" aria-label="Home">
-          <a href="/"><i className="fas fa-code"></i></a>
+          <a href="#home"><i className="fas fa-code"></i></a>
         </div>
         <div className={`menu-toggle ${isOpen ? "open" : ""}`} onClick={handleToggle}>
           {isOpen ? (
