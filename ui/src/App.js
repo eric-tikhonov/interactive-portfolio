@@ -3,6 +3,7 @@ import "./style.css";
 import Header from "./components/Header/Header.js";
 import Footer from "./components/Footer/Footer.js";
 import Intro from "./components/Intro/Intro.js";
+import AboutMe from "./components/About Me/AboutMe.js";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <main className="main">
         <Intro />
+        <AboutMe />
       </main>
       <Footer />
     </div>

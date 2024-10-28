@@ -131,7 +131,7 @@
     width: 100%;
     height: calc(100vh - var(--nav-height));
     overflow-y: auto;
-    background-color: rgba(10, 25, 47, 0.85);
+    background-color: rgba(10, 25, 47, 0.85); /* Restored original background color */
     position: absolute;
     top: var(--nav-height);
     left: 0;

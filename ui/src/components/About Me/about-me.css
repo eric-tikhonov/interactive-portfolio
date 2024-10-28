@@ -1,0 +1,131 @@
+.about-me-section {
+    padding: 50px 0;
+  }
+  
+  .about-me-inner {
+    display: flex;
+    flex-direction: column; /* Stack heading above content */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: var(--border-radius);
+  }
+  
+  .about-me-heading {
+    width: 100%; /* Full width */
+    margin-bottom: 20px; /* Space below heading */
+    text-align: left; /* Left align heading */
+  }
+  
+  .about-me-heading h2 {
+    margin: 0;
+    position: relative;
+  }
+  
+  .about-me-heading h2::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: var(--dark-slate); /* Horizontal line */
+    margin-top: 5px; /* Space above line */
+  }
+  
+  .about-me-content {
+    display: flex;
+    flex-direction: row; /* Ensure row layout */
+    align-items: flex-start; /* Align items to the start */
+    width: 100%; /* Full width */
+  }
+  
+  .about-me-text {
+    flex: 1;
+    margin-right: 20px; /* Space to the right of the text */
+    color: var(--dark-slate);
+    text-align: left; /* Left align text */
+  }
+  
+  .about-me-text p {
+    margin: 10px 0;
+    font-size: var(--fz-md);
+    color: var(--dark-slate);
+    line-height: 1.6;
+    text-align: left; /* Left align text */
+  }
+  
+  .about-me-text a {
+    color: var(--tan); /* Tan color for links */
+    text-decoration: none; /* No underline */
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+    text-align: left; /* Left align text */
+  }
+  
+  .about-me-text a:hover {
+    color: var(--dark-green);
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Left align skills list */
+    text-align: left; /* Left align text */
+  }
+  
+  .skills-list li {
+    background: #ececec; /* Match light theme */
+    color: var(--dark-slate);
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 20px; /* Create pill-like shape */
+    font-size: var(--fz-sm);
+    white-space: nowrap; /* Ensure the width is only as wide as the content */
+  }
+  
+  .about-me-img-container {
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+    flex: 1;
+    min-width: 300px; /* Ensure the container is wide enough */
+  }
+  
+  .about-me-img {
+    width: 300px;
+    height: 300px;
+    background: url('../../images/profile-pic.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px; /* Rounded square */
+    border: 3px solid var(--dark-slate);
+  }
+  
+  @media (max-width: 768px) {
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap; /* Wrap items in mobile view */
+      justify-content: center; /* Center items in mobile view */
+    }
+  
+    .skills-list li {
+      width: auto; /* Maintain width relative to content */
+    }
+  
+    .about-me-content {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center items */
+    }
+  
+    .about-me-text {
+      margin-right: 0;
+      margin-top: 20px;
+    }
+  
+    .about-me-img-container {
+      justify-content: center; /* Center image in mobile view */
+      margin-top: 20px;
+      min-width: 300px;
+    }
+  }
+  

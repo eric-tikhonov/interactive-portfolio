@@ -5,7 +5,6 @@
     flex-direction: column;
     min-height: 100vh;
     padding: 0;
-    background: linear-gradient(135deg, #ececec, #f7f7f7);
   }
   
   @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {

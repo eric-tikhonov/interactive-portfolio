@@ -1,5 +1,6 @@
 *,::before,::after {
   box-sizing: inherit;
+  user-select: none; /* Prevent text cursor */
 }
 
 body {
@@ -9,7 +10,7 @@ body {
   min-height: 100%;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--navy);
+  background-color: linear-gradient(135deg, #ececec, #f7f7f7);
   color: var(--slate);
   font-family: var(--font-sans);
   font-size: var(--fz-lg);

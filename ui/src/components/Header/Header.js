@@ -10,6 +10,10 @@ function Header() {
     setIsOpen(!isOpen);
   };
 
+  const handleCloseMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <header className="header">
       <nav className="navigation">
@@ -29,20 +33,20 @@ function Header() {
         </div>
         <div className={`links ${isOpen ? "active" : ""}`}>
           <ol>
-            <li>
-              <a href="/#about">About</a>
+            <li onClick={handleCloseMenu}>
+              <a href="#about-me">About</a>
             </li>
-            <li>
+            <li onClick={handleCloseMenu}>
               <a href="/#jobs">Experience</a>
             </li>
-            <li>
+            <li onClick={handleCloseMenu}>
               <a href="/#projects">Work</a>
             </li>
-            <li>
+            <li onClick={handleCloseMenu}>
               <a href="/#contact">Contact</a>
             </li>
           </ol>
-          <div className="resume-button">
+          <div className="resume-button" onClick={handleCloseMenu}>
             <a href="https://resume.erictikhonov.com/resume.pdf" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
