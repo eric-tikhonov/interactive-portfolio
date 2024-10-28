@@ -1,0 +1,37 @@
+.contact-me-section {
+    padding: 50px 0;
+    max-width: 600px;
+    margin: 0px auto 100px;
+    text-align: center;
+  }
+  
+  .contact-me-section .heading {
+    font-size: var(--fz-heading);
+    margin-bottom: 20px;
+    color: var(--dark-slate);
+  }
+  
+  .contact-me-section .description {
+    font-size: var(--fz-lg);
+    color: var(--dark-slate);
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  .email-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: var(--fz-md);
+    color: var(--tan);
+    background-color: transparent;
+    border: 2px solid var(--tan);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .email-link:hover {
+    background-color: var(--tan);
+    color: #fff;
+  }
+  

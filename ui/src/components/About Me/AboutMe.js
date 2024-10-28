@@ -13,26 +13,35 @@ function AboutMe() {
           <div className="about-me-text">
             <div>
               <p>
-                Hello! My name is Eric, and I enjoy creating software that
-                transforms ideas into reality. I began my journey in software
-                development at the age of 13, creating mods for Minecraft. This
-                early experience honed my skills in coding, problem-solving, and
-                creativity.
+                Hello! My name is <span class="highlight">Eric</span>, and I
+                enjoy creating software that transforms ideas into reality. I
+                began my journey in{" "}
+                <span class="highlight">software development</span> at the age
+                of <span class="highlight">13</span>, creating mods for
+                Minecraft. This early experience honed my skills in{" "}
+                <span class="highlight">
+                  coding, problem-solving, and creativity
+                </span>
+                .
               </p>
               <div>
                 <p>
                   Fast-forward to today, I’ve had the privilege of working in
-                  the gov tech sector. My main focus these days is building
-                  accessible, inclusive products and digital experiences at
-                  Tyler Technologies for a variety of clients, including the
-                  state of Connecticut.
+                  the <span class="highlight">gov tech sector</span>. My main
+                  focus these days is building accessible, inclusive products
+                  and digital experiences at{" "}
+                  <span class="highlight">Tyler Technologies</span> for a
+                  variety of clients, including the{" "}
+                  <span class="highlight">state of Connecticut</span>.
                 </p>
               </div>
               <div>
                 <p>
-                  I'm currently pursuing a
-                  Master of Science in Cybersecurity and Information Assurance to deepen my expertise in securing
-                  digital infrastructures.
+                  I'm currently pursuing a{" "}
+                  <span class="highlight">
+                    Master of Science in Cybersecurity and Information Assurance
+                  </span>{" "}
+                  to deepen my expertise in securing digital infrastructures.
                 </p>
               </div>
               <p>

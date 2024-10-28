@@ -20,12 +20,15 @@
   .about-me-heading h2 {
     margin: 0;
     position: relative;
+    font-size: var(--fz-heading);
+    color: var(--dark-slate);
+    font-weight: 450;
   }
   
   .about-me-heading h2::after {
     content: '';
     display: block;
-    width: 100px;
+    width: 140px;
     height: 2px;
     background: var(--dark-slate);
     margin-top: 5px;
@@ -98,7 +101,6 @@
     background: url('../../images/profile-pic.jpg') no-repeat center center;
     background-size: cover;
     border-radius: 10px;
-    border: 3px solid var(--dark-slate);
   }
   
   @media (max-width: 768px) {
@@ -127,5 +129,9 @@
       margin-top: 20px;
       min-width: 300px;
     }
+  }
+  
+  .highlight {
+    color: var(--tan);
   }
   

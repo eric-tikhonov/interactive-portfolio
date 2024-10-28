@@ -37,13 +37,13 @@ function Header() {
               <a href="#about-me">About</a>
             </li>
             <li onClick={handleCloseMenu}>
-              <a href="/#jobs">Experience</a>
+              <a href="#jobs">Experience</a>
             </li>
             <li onClick={handleCloseMenu}>
-              <a href="/#projects">Work</a>
+              <a href="#projects">Work</a>
             </li>
             <li onClick={handleCloseMenu}>
-              <a href="/#contact">Contact</a>
+              <a href="#contact-me">Contact</a>
             </li>
           </ol>
           <div className="resume-button" onClick={handleCloseMenu}>
