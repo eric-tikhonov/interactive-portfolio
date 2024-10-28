@@ -13,7 +13,11 @@ function AboutMe() {
           <div className="about-me-text">
             <div>
               <p>
-              Hello! My name is Eric, and I enjoy creating software that transforms ideas into reality. I began my journey in software development at the age of 13, creating mods for Minecraft. This early experience honed my skills in coding, problem-solving, and creativity.
+                Hello! My name is Eric, and I enjoy creating software that
+                transforms ideas into reality. I began my journey in software
+                development at the age of 13, creating mods for Minecraft. This
+                early experience honed my skills in coding, problem-solving, and
+                creativity.
               </p>
               <div>
                 <p>
@@ -22,6 +26,13 @@ function AboutMe() {
                   accessible, inclusive products and digital experiences at
                   Tyler Technologies for a variety of clients, including the
                   state of Connecticut.
+                </p>
+              </div>
+              <div>
+                <p>
+                  I'm currently pursuing a
+                  Master of Science in Cybersecurity and Information Assurance to deepen my expertise in securing
+                  digital infrastructures.
                 </p>
               </div>
               <p>
