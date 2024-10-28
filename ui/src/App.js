@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer.js";
 import Intro from "./components/Intro/Intro.js";
 import AboutMe from "./components/About Me/AboutMe.js";
 import ContactMe from "./components/Contact Me/Contact Me.js";
+import Socials from "./components/Socials/Socials.js";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Intro />
         <AboutMe />
         <ContactMe />
+        <Socials />
       </main>
       <Footer />
     </div>
