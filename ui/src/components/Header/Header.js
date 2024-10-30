@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import "../../style.css";
 import "./header.css";
 
 function Header() {

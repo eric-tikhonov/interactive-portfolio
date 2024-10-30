@@ -1,5 +1,4 @@
 import React from "react";
-import "../../style.css";
 import "./about-me.css";
 
 function AboutMe() {
