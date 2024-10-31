@@ -66,7 +66,7 @@ function Header() {
             </li>
           </ol>
           <div className="resume-button" onClick={handleCloseMenu}>
-            <a href="https://resume.erictikhonov.com/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="https://resume.erictikhonov.com" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </div>
